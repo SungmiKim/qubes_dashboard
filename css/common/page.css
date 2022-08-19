@@ -1,0 +1,104 @@
+/* 관리자 DASHBOARD */
+.loc .panel .list_box {
+  padding: 59px 94px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.loc .panel .title_wrap {
+  display: flex;
+}
+.loc .panel .title_wrap button {
+  width: 90px;
+  height: 37px;
+  padding: 8px 16px;
+  margin-left: 20px;
+  background: #8044ff;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.loc .panel .list_box.membr_list table td {
+  padding-bottom: 43px;
+}
+
+/* 로그인 페이지 */
+.loc.login {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../images/img/login_background.svg) 100% 100% / 100% auto no-repeat;
+  position: relative;
+}
+.loc.login .login_box {
+  width: 709px;
+  height: 420px;
+  padding: 49px 196px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.13);
+  border-radius: 30px;
+}
+.loc.login .login_box img {
+  margin-bottom: 20px;
+}
+.loc.login .login_box input {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #8e8e8e;
+}
+.loc.login .login_box button {
+  width: 218px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: linear-gradient(270deg, #8044ff 0%, rgba(128, 68, 255, 0.8) 26.61%, rgba(128, 68, 255, 0.3) 94%, rgba(255, 0, 0, 0) 139.91%);
+  border-radius: 30px;
+
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+/* 주문수정 팝업 */
+.content .pop_btn {
+  cursor: pointer;
+  background-color: #ccc;
+}
+.pop_ct.pop_ct2 div select {
+  width: 88px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #694df9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-top: 17px;
+}
+.pop_ct.pop_ct2 .pop_close {
+  width: 90px;
+  height: 32px;
+  position: absolute;
+  bottom: 47px;
+  right: 47px;
+  align-items: center;
+  padding: 8px 16px;
+  background: #8044ff;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 47px;
+  right: 47px;
+}
