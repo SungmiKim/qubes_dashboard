@@ -1,0 +1,149 @@
+@media all and (max-width: 768px) {
+  body {
+    background: #f5f5f5;
+    min-width: unset;
+  }
+
+  .ham_btn {
+    display: block;
+  }
+
+  .loc.dashboard {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .loc .mobile_header_ex {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    box-shadow: 0px 2px 30px rgba (0, 0, 0, 0.04);
+  }
+  .loc .mobile_header {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 19px 46px;
+  }
+  .loc .mobile_header p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #3d3d3d;
+  }
+  .loc .snb .login_info p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: #ffffff;
+  }
+
+  .loc .snb {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: -100%;
+
+    width: 262px;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+  }
+  .snb.on {
+    left: 0;
+  }
+
+  .loc .snb ul li a {
+    display: flex;
+    align-items: center;
+  }
+  .loc .snb ul li span {
+    font-size: 17px;
+  }
+
+  .loc .content {
+    padding: 36px 46px;
+    margin-top: 55px;
+    margin-left: 0;
+  }
+  .loc .content .panel {
+    width: 100%;
+    padding: 0;
+  }
+  .loc .content .panel.dashboard h2,
+  .loc .content .panel.order h2 {
+    margin-bottom: 26px;
+  }
+  .loc .title_wrap h2 {
+    font-size: 23px;
+  }
+
+  .loc .panel .dashboard_box {
+    display: flex;
+    flex-direction: column;
+    gap: 25.8px;
+  }
+  .loc .panel .dashboard_box .board {
+    max-width: 410px;
+    width: 100%;
+    height: 92px;
+    padding: 24px 30px 24px 37px;
+  }
+  .loc .panel .dashboard_box .board img {
+    width: 28px;
+  }
+  .loc .panel .dashboard_box .board ul li:nth-child(2) {
+    font-size: 20px;
+    margin-top: 9px;
+  }
+
+  .loc .panel.order {
+    margin-top: 70px;
+  }
+  .loc .panel .list_box {
+    max-width: 500px;
+    width: 100%;
+    padding: 31px 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .loc .panel .list_box tr .h {
+    display: none;
+  }
+  .loc .panel .list_box th {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+  .loc .panel .list_box td {
+    font-size: 11px;
+    padding: 0 0 12px 0;
+  }
+  .loc .panel .list_box td select {
+    padding: 0;
+    width: 60px;
+    height: 18px;
+    font-size: 8px;
+  }
+  .loc .panel .list_box .mob {
+    display: block;
+  }
+  .loc .panel .list_box .mob button {
+    width: 52px;
+    height: 18px;
+    background: #5e47d2;
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
