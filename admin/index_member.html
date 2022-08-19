@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximun-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>프로젝트명</title>
+    <link rel="icon" href="./images/favicon.ico" />
+    <meta property="og:image" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/common/common.css" />
+    <link rel="stylesheet" href="../css/common/page.css" />
+    <link rel="stylesheet" href="../css/page/index.css" />
+  </head>
+  <body class="admin">
+    <div class="loc memberboard">
+      <div class="snb">
+        <div class="login_info">
+          <img src="../images/img/admin_icon.svg" alt="" />
+          <p>ADMIN</p>
+        </div>
+        <ul>
+          <li>
+            <a href="./index.html" class="depth 01">
+              <img src="../images/icon/icon_dashboard.svg" alt="" />
+              <span>대시보드</span>
+            </a>
+          </li>
+          <li>
+            <a href="./index_order.html" class="depth 02">
+              <img src="../images/icon/icon_order.svg" alt="" />
+              <span>주문처리</span>
+            </a>
+          </li>
+          <li>
+            <a href="/" class="depth 03">
+              <img src="../images/icon/icon_folder.svg" alt="" />
+              <span>회원관리</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content full">
+        <div class="panel order">
+          <div class="title_wrap">
+            <h2>회원관리</h2>
+            <button onclick="openPop(1)">회원가입</button>
+          </div>
+          <div class="order list_box membr_list">
+            <table class="full">
+              <tr>
+                <th onclick="openPop(2)" class="pop_btn">인스타그램</th>
+                <th>이름</th>
+                <th>연락처</th>
+                <th>주소지</th>
+                <th>유입현황</th>
+                <th>판매현황</th>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+              <tr>
+                <td>@gahei_</td>
+                <td>김가희</td>
+                <td>010 - 0000 - 0000</td>
+                <td>대구광역시 달서구 본리동</td>
+                <td>일 접속: 73 월 접속: 755</td>
+                <td>40건</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- pop_ct1 -->
+      <div class="pop_bg"></div>
+      <div class="pop_ct pop_ct1 fixed detail_pop"">
+        <div class="pop_head">
+          <h2>회원가입/회원정보 수정</h2>
+          <img src="../images/img/admin_icon.svg" alt="" />
+        </div>
+        <form>
+          <div>
+            <p>인스타그램 아이디</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>로그인 아이디</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>비밀번호</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>성함</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>연락처</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>배송지</p>
+            <input type="text" class="full">
+          </div>
+        </form>
+        <button class="pop_close full">수정완료</button>
+      </div>
+
+      <!-- pop_ct2 -->
+      <div class="pop_ct pop_ct2 fixed detail_pop"">
+        <div class="pop_head">
+          <h2>주문수정</h2>
+          <p>2022.08.02 16:40</p>
+        </div>
+        <form>
+          <div>
+            <p>성함</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>연락처</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>배송지</p>
+            <input type="text" class="full">
+          </div>
+          <div>
+            <p>사이즈</p>
+            <select>
+              <option value="">XL</option>
+              <option value="">L</option>
+              <option value="">M</option>
+              <option value="">S</option>
+            </select>
+          </div>
+        </form>
+        <button class="pop_close">수정완료</button>
+      </div>
+    </div>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
