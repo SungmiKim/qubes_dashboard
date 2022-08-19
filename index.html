@@ -10,11 +10,321 @@
     <meta property="og:title" content="" />
     <meta property="og:description" content="" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="./css/common/common.css" />
     <link rel="stylesheet" href="./css/page/index.css" />
+    <link rel="stylesheet" href="./css/common/responsive.css" />
   </head>
   <body>
-    Hello
+    <div class="loc dashboard">
+      <div class="mobile_header_ex">
+        <div class="mobile_header">
+          <div class="ham_btn">
+            <img src="./images/icon/ham_btn.svg" alt="" />
+          </div>
+          <p>김가희(@gahei_)</p>
+        </div>
+      </div>
+      <div class="snb">
+        <div class="login_info">
+          <img src="./images/img/login_icon.svg" alt="" />
+          <p>김가희(@gahei_)</p>
+        </div>
+        <ul>
+          <li>
+            <a href="/" class="depth 01">
+              <img src="./images/icon/icon_dashboard.svg" alt="" />
+              <span>대시보드</span>
+            </a>
+          </li>
+          <li>
+            <a href="./index_order.html" class="depth 02">
+              <img src="./images/icon/icon_order.svg" alt="" />
+              <span>주문처리</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content full">
+        <div class="panel dashboard">
+          <div class="title_wrap">
+            <h2>대시보드</h2>
+          </div>
+          <div class="dashboard_box">
+            <div class="board b1">
+              <ul>
+                <li>오늘의 예상 수입액</li>
+                <li>$137,500 원</li>
+              </ul>
+              <img src="./images/icon/icon_calender.svg" alt="" />
+            </div>
+            <div class="board b2">
+              <ul>
+                <li>이번 달의 예상 수입액</li>
+                <li>$4,057,111 원</li>
+              </ul>
+              <img src="./images/icon/icon_money.svg" alt="" />
+            </div>
+            <div class="board b3">
+              <ul>
+                <li>이번 달 페이지뷰</li>
+                <li>4,508</li>
+              </ul>
+              <img src="./images/icon/icon_con.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="panel order">
+          <div class="title_wrap">
+            <h2>빠른 주문처리</h2>
+          </div>
+          <div class="order list_box">
+            <table class="full">
+              <tr>
+                <th class="h">주문일시</th>
+                <th>주문자</th>
+                <th class="h">사이즈</th>
+                <th class="h">배송지</th>
+                <th>입금상태</th>
+                <th class="h">배송상태</th>
+                <th class="mob">정보수정</th>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="h">2022.08.02 16:40</td>
+                <td>박성현</td>
+                <td class="h">XL</td>
+                <td class="h">대구광역시 달서구 본리동</td>
+                <td>
+                  <select>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                    <option value="">입금전</option>
+                  </select>
+                </td>
+                <td class="h">
+                  <select>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                    <option value="">배송준비중</option>
+                  </select>
+                </td>
+                <td class="mob">
+                  <button>수정하기</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
