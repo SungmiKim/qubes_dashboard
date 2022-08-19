@@ -1,2 +1,12 @@
-@media all and (max-width: 768px) {
+.loc .content .panel.dashboard .dashboard_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 58px;
+}
+
+.loc .content .panel.dashboard h2 {
+  margin-bottom: 50px;
+}
+.loc .content .panel.order h2 {
+  margin-bottom: 40px;
 }
