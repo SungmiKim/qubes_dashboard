@@ -34,6 +34,29 @@ $(document).ready(function () {
   navtab.init();
 });
 
-$(ham_btn).click(function () {
-  $(".sub").addClass("on");
+// $(ham_btn).click(function () {
+//   $(".sub").addClass("on");
+// });
+
+//약관 펼쳐보기
+$(function () {
+  $(".agree_box .agree_1_label_open").on("click", function () {
+    $(".agree_1_label_close").show();
+  });
+  $(".agree_box .agree_1_label_open").on("click", function () {
+    $(".agree_1_label_open").hide();
+  });
+  $(".agree_box .agree_1_label_close").on("click", function () {
+    $(".agree_1_label_open").show();
+  });
+  $(".agree_box .agree_1_label_close").on("click", function () {
+    $(".agree_1_label_close").hide();
+  });
+
+  $(".input_box .agree_box .agree_1_label_open").on("click", function () {
+    $(".agree_txt").slideDown();
+  });
+  $(".agree_box .agree_1_label_close").on("click", function () {
+    $(".agree_txt").slideUp();
+  });
 });

@@ -1,0 +1,256 @@
+body {
+  background-color: #ffffff;
+}
+.loc {
+  display: flex;
+  flex-direction: column;
+}
+
+@media all and (max-width: 768px) {
+  .loc .header_ex {
+    width: 100%;
+    height: 55px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .loc .header_ex .header {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .loc .header_ex .header p {
+    font-family: "Pretendard";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    align-items: center;
+  }
+  .loc .header_ex .header div {
+    display: flex;
+    gap: 12px;
+  }
+  .loc .header_ex .header div p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    line-height: 2.5;
+  }
+
+  main {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .title {
+    padding: 0 39px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #b7b7b7;
+    margin-bottom: 35px;
+  }
+  main .title p:nth-child(2) {
+    color: #292929;
+  }
+
+  .input_box {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 39px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  form input {
+    height: 35px;
+    padding: 0 16px;
+    border: 1px solid #694df9;
+    border-radius: 4px;
+  }
+  form input + input {
+    margin-top: 11px;
+  }
+  form select {
+    height: 35px;
+    padding: 0 16px;
+    border: 1px solid #694df9;
+    border-radius: 4px;
+    margin-top: 11px;
+  }
+  form div {
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    margin: 11px 0;
+  }
+  form div button {
+    width: 84px;
+    height: 35px;
+    background: #484848;
+    border-radius: 4px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+  }
+  form div input {
+    width: calc(100% - 84px);
+  }
+
+  .input_box .agree_box {
+    margin: 11px auto;
+    position: relative;
+  }
+
+  /* 체크박스 */
+  .agree_box {
+    position: relative;
+  }
+  .agree_box input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  /* 라벨 */
+  .agree_box .agree + .agree_label {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    color: #0a0a0a;
+  }
+  .agree_box .agree_1 + .agree_1_label_open {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+    color: #0047ff;
+  }
+  .agree_box .agree_1_label_close {
+    display: none;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+    color: #0047ff;
+  }
+
+  /* 체크 안했을때 보여지는 부분 */
+  .agree_box .agree + .agree_label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0%, -50%);
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #694df9;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* 체크했을 때 보여지는 부분 */
+  .agree_box .agree:checked + .agree_label:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    /* 라벨과 체크박스를 가운데로 맞춰준다 */
+    transform: translate(0%, -50%);
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: url("../../images/icon/check.png") no-repeat center / auto;
+    background-size: 60% 60%;
+  }
+
+  .agree_txt {
+    display: none;
+    margin: 10px 0;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  .input_box > button {
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #694df9;
+    border-radius: 4px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+  }
+
+  .order.title {
+    margin-top: 70px;
+  }
+  .order_list {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 39px 35px 39px;
+    margin: 0 auto;
+  }
+  .order_list table {
+    width: 100%;
+  }
+  .order_list table th {
+    padding: 10px;
+    border-top: 1.5px solid #595959;
+    border-bottom: 1.5px solid #e6e6e6;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    color: #000000;
+  }
+  .order_list table td {
+    padding: 10px;
+    font-family: "Noto Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    text-align: center;
+    line-height: 23px;
+    color: #000000;
+  }
+  .order_list table .b {
+    color: #694df9;
+  }
+}

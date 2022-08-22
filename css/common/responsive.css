@@ -146,4 +146,36 @@
     text-align: center;
     color: #ffffff;
   }
+
+  .pop_ct1 {
+    max-width: 295px;
+    width: 100%;
+    padding: 42px 48px;
+  }
+  .pop_ct1 .pop_head h2 {
+    font-size: 18px;
+  }
+  .pop_ct1 .pop_head p {
+    font-size: 14px;
+  }
+  .pop_ct1 form p {
+    font-size: 14px;
+  }
+  .pop_ct1 form input {
+    height: 25px;
+  }
+  .pop_ct1 form select {
+    width: 48px;
+    height: 21px;
+    font-size: 10px;
+    border: 1px solid #694df9;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    margin-top: 7px;
+  }
+  .pop_ct1 button {
+    position: absolute;
+    bottom: 42px;
+    right: 48px;
+  }
 }

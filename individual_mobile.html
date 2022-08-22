@@ -11,11 +11,123 @@
     <meta property="og:description" content="" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/common/common.css" />
-    <link rel="stylesheet" href="./css/page/index.css" />
+    <link rel="stylesheet" href="./css/common/font.css" />
+    <link rel="stylesheet" href="./css/common/reset.css" />
+    <link rel="stylesheet" href="./css/page/mobile.css" />
   </head>
   <body>
-    <div class="mobile"></div>
+    <div class="loc mobile">
+      <div class="header_ex">
+        <div class="header">
+          <div>
+            <img src="./images/img/login_icon.svg" alt="" />
+            <p>@gahei_</p>
+          </div>
+          <p>Nike 3차 공동구매 양식작성</p>
+        </div>
+      </div>
+      <main>
+        <div class="info title">
+          <p>안전하게 보호됩니다</p>
+          <p>최소한의 정보만 입력하세요</p>
+        </div>
+        <div class="input_box">
+          <form>
+            <input type="text" placeholder="성함" />
+            <input type="text" placeholder="연락처" />
+            <select>
+              <option value="">사이즈 선택</option>
+              <option value="">XL</option>
+              <option value="">L</option>
+              <option value="">M</option>
+              <option value="">S</option>
+            </select>
+            <div>
+              <button>주소검색</button>
+              <input type="text" />
+            </div>
+            <input type="text" placeholder="상세주소" />
+          </form>
+          <div class="agree_box">
+            <input type="checkbox" id="agree" class="agree" />
+            <label for="agree" class="agree_label">
+              <span>개인정보의 수집·이용방법 동의</span>
+            </label>
+
+            <input type="checkbox" id="agree_1" class="agree_1" />
+            <label for="agree_1" class="agree_1_label_open"> <span>[펼쳐보기]</span></label>
+            <label for="agree_1" class="agree_1_label_close"> <span>[접기]</span></label>
+
+            <div class="agree_txt">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum iure eos? Itaque, aperiam? Quae voluptas tenetur, eius veniam debitis maxime quos provident voluptatibus nisi, illum amet quidem voluptatem id.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+                nostrum iure eos? Itaque, aperiam? Quae voluptas tenetur, eius veniam debitis maxime quos provident voluptatibus nisi, illum amet quidem voluptatem id.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum iure eos? Itaque, aperiam? Quae voluptas tenetur, eius
+                veniam debitis maxime quos provident voluptatibus nisi, illum amet quidem voluptatem id.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum iure eos? Itaque, aperiam? Quae voluptas tenetur, eius veniam debitis maxime quos provident voluptatibus nisi, illum amet
+                quidem voluptatem id.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nostrum iure eos? Itaque, aperiam? Quae voluptas tenetur, eius veniam debitis maxime quos provident voluptatibus nisi, illum amet quidem voluptatem id.
+              </p>
+            </div>
+          </div>
+          <button>작성완료</button>
+        </div>
+
+        <div class="order title">
+          <p>실시간으로 연동됩니다</p>
+          <p>주문내역을 확인해보세요</p>
+        </div>
+        <div class="order_list">
+          <table>
+            <tr>
+              <th>주문일시</th>
+              <th>주문자명</th>
+              <th>입금상태</th>
+              <th>배송상태</th>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td>입금전</td>
+              <td>배송준비중</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td>입금전</td>
+              <td>배송준비중</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td class="b">입금완료</td>
+              <td>배송준비중</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td class="b">입금완료</td>
+              <td class="b">배송완료</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td class="b">입금완료</td>
+              <td class="b">배송완료</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td class="b">입금완료</td>
+              <td class="b">배송완료</td>
+            </tr>
+            <tr>
+              <td>2021.08.02</td>
+              <td>박*홍</td>
+              <td class="b">입금완료</td>
+              <td class="b">배송완료</td>
+            </tr>
+          </table>
+        </div>
+      </main>
+    </div>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
