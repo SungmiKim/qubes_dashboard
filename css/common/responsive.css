@@ -150,6 +150,7 @@
     color: #ffffff;
   }
 
+  /* 팝업 */
   .pop_bg {
     display: none;
     overflow: hidden;
@@ -187,10 +188,17 @@
     border-radius: 4px;
     margin-top: 7px;
   }
-  .pop_ct1 button {
+  .pop_ct1 .btn_wrap {
+    max-width: 295px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+  .pop_ct1 .btn_wrap button {
     position: absolute;
-    bottom: 42px;
-    right: 48px;
+    bottom: 0;
+    right: 0;
   }
 
   /* 주문처리 모바일버전 */
