@@ -37,6 +37,7 @@ body {
   height: 36px;
   margin-top: 9.5px;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3px;
 }
 .loc .header_ex .header div > p {
   font-family: "Inter";
