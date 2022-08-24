@@ -77,6 +77,9 @@ body.fix {
   color: #3d3d3d;
 }
 
+.loc .panel .dashboard_box {
+  width: 1346px;
+}
 .loc .panel .dashboard_box .board {
   width: 410px;
   height: 120px;
@@ -133,7 +136,7 @@ body.fix {
   width: 100%;
 }
 .loc .panel .list_box th {
-  padding: 20px 0;
+  padding: 0 0 20px 0;
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 700;
