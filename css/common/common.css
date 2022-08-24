@@ -288,3 +288,7 @@ body.fix {
   text-align: center;
   color: #ffffff;
 }
+
+.pop_ct.pop_ct1.fixed .pop_close.member {
+  margin-top: 60px;
+}
