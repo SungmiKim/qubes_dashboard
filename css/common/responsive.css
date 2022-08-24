@@ -85,6 +85,8 @@
   }
 
   .loc .panel .dashboard_box {
+    max-width: 500px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 25.8px;
@@ -109,6 +111,7 @@
   .loc .panel .list_box {
     max-width: 500px;
     width: 100%;
+    margin: 0 auto;
     padding: 31px 36px;
     display: flex;
     flex-direction: row;
@@ -192,9 +195,11 @@
 
   /* 주문처리 모바일버전 */
   .loc .content.order {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
     padding: 0 46px;
     margin-top: 55px;
-    margin-left: 0;
   }
   .loc .content.order .panel.order {
     margin-top: 36px;
