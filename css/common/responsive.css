@@ -188,14 +188,11 @@
     border-radius: 4px;
     margin-top: 7px;
   }
-  .pop_ct1 .btn_wrap {
-    max-width: 295px;
-    width: 100%;
+
+  .pop_ct1 form .size.btn {
     position: relative;
-    bottom: 0;
-    right: 0;
   }
-  .pop_ct1 .btn_wrap button {
+  .pop_ct1 form .size.btn button {
     position: absolute;
     bottom: 0;
     right: 0;
