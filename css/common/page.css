@@ -24,7 +24,7 @@
   color: #ffffff;
 }
 
-.loc .panel .list_box.membr_list table td {
+.loc .panel .list_box.member_list table td {
   padding-bottom: 43px;
 }
 
@@ -75,9 +75,11 @@
 }
 
 /* 주문수정 팝업 */
+.content .id_btn {
+  cursor: pointer;
+}
 .content .pop_btn {
   cursor: pointer;
-  background-color: #ccc;
 }
 .pop_ct.pop_ct2 div select {
   width: 88px;
